@@ -7,7 +7,9 @@ final class KillerTest extends TestCase
 {
     public function testRandomKill ()
     {  
-        $name = "Arturo";
+    $name = "Arturo";
+    
+    $deadCoders = 3;
 
     $killer = new Killer();
     $resultado = $killer->random();
@@ -18,12 +20,12 @@ final class KillerTest extends TestCase
 
     public function testAllDead ()
     {
-        $numberCadaver = 24;
+       $deadCoders = 24;
 
-        $killer = new killer();
+        $killer = new Killer();
         $resultado = $killer->random();
 
-        $this->assertSame(' AllDead ', $resultado); 
+        $this->assertSame('AllDead', $resultado); 
     }
 
 

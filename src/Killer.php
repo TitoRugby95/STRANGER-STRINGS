@@ -1,18 +1,19 @@
 <?php
 namespace App;
 
-class Killer{
+class Killer { 
 
     function random(){
         
-        $numberCadaever;
-        $numeroDeCoders = 24;
-
-        if ($numberCadaver == $numeroDeCoders) {
-           return ' AllDead'; 
+        $deadCoders = 24; 
+        $totalCoders = 24; 
+            
+        if ($deadCoders == $totalCoders) {
+           return 'AllDead'; 
         }
         
-        if ($numberCadaver != $numeroCoders) {
+        if ($deadCoders != $totalCoders) {
+            $deadCoders++ ;
             return 'Arturo';
         }
 
